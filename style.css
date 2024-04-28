@@ -210,3 +210,29 @@ span:hover {
     cursor: pointer;
   }
 }
+@media screen and (max-width: 500px) {
+  h2 {
+    display: flex;
+
+    align-items: center;
+    width: 90%;
+  }
+
+  .todo-app h2 img {
+    width: 30px;
+  }
+  button {
+    border: none;
+    background-color: red;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .todo-app {
+    width: 100%;
+  }
+}
